@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Барбершоп «Бородинский»</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
@@ -10,7 +11,7 @@
         <nav class="main-navigation">
           <ul>
             <li>
-              <a href="#"><img src="http://placehold.it/220x165" width="111" height="24" alt="logo"></a>
+              <a href="#"><img src="img/logo.png" width="111" height="24" alt="logo"></a>
             </li>
             <li>
               <a href="#">Информация</a>
@@ -41,14 +42,14 @@
         <ul>
           <li><a href="#">Главная</a></li>
           <li><a href="#">Магазин</a></li>
-          <li><a href="#">Средства для ухода</a></li>
+          <li><a href="#" class="disabled">Средства для ухода</a></li>
         </ul>
       </div>
 
       <div class="filters">
         <section class="manufacturers">
           <form>
-          <p>Производители:</p>  
+          <h3>Производители:</h3>  
              <input type="checkbox" name="baxter" id="baxter">
                <label for="baxter">Baxter of California</label>
              <input type="checkbox" name="natty" id="natty">
@@ -61,58 +62,58 @@
                 <label for="murrays">Murray's</label>
               <input type="checkbox" name="crew" id="crew">
                 <label for="crew">American Crew</label>
-          <p>Группы товаров:</p>
+          <h3>Группы товаров:</h3>
               <input type="radio" name="care" value="razor">Бритвенные принадлежности</input>
               <input type="radio" name="care" value="for-dcare">Средства для ухода</input>
               <input type="radio" name="care" value="accessories">Аксессуары</input>
-              <button>Показать</button>
+              <button class="btn">Показать</button>
             </form>
         </section>
       </div>
 
       <div class="catalog-items">
         <article class="catalog-item">
-          <a href="#"><img src="http://placehold.it/220x165" width="220" height="165" alt=""></a>
+          <a href="#"><img src="img/shop-item1.jpg" width="220" height="165" alt=""></a>
           <a href="#" class="item-title"><p>Набор для путешествий «Baxter of California»</p></a>
           <b>2 900 руб.</b>
           <a class="btn" href="#">Купить</a>
         </article>
         <article class="catalog-item">
-          <a href="#"><img src="http://placehold.it/220x165" width="220" height="165" alt=""></a>
+          <a href="#"><img src="img/shop-item2.jpg" width="220" height="165" alt="Baxter"></a>
           <a href="#" class="item-title"><p>Увлажняющий кондиционер «Baxter of California»</p></a>
           <b>750 руб.</b>
           <a class="btn" href="#">Купить</a>
         </article>
         <article class="catalog-item">
-          <a href="#"><img src="http://placehold.it/220x165" width="220" height="165" alt=""></a>
+          <a href="#"><img src="img/shop-item3.jpg" width="220" height="165" alt="SUAVECITO"></a>
           <a href="#" class="item-title"><p>Гель для волос «SUAVECITO»</p></a>
           <b>290 руб.</b>
           <a class="btn" href="#">Купить</a>
         </article>
         <article class="catalog-item">
-          <a href="#"><img src="http://placehold.it/220x165" width="220" height="165" alt=""></a>
+          <a href="#"><img src="img/shop-item4.jpg" width="220" height="165" alt="CREW"></a>
           <a href="#" class="item-title"><p>Глина для укладки волос «American crew»</p></a>
           <b>500 руб.</b>
           <a class="btn" href="#">Купить</a>
         </article>
         <article class="catalog-item">
-          <a href="#"><img src="http://placehold.it/220x165" width="220" height="165" alt=""></a>
+          <a href="#"><img src="img/shop-item5.jpg" width="220" height="165" alt="CREW"></a>
           <a href="#" class="item-title"><p>Гель для волос «AMERICAN CREW»</p></a>
           <b>300 руб.</b>
           <a class="btn" href="#">Купить</a>
         </article>
         <article class="catalog-item">
-          <a href="#"><img src="http://placehold.it/220x165" width="220" height="165" alt=""></a>
+          <a href="#"><img src="img/shop-item6.jpg" width="220" height="165" alt="Baxter"></a>
           <a href="#" class="item-title"><p>Набор для бритья «Baxter of California»</p></a>
           <b>3 900 руб.</b>
           <a class="btn" href="#">Купить</a>
         </article>
       </div>
       <div class="catalog-nav">
-       <a rel="1" href="#">1</a>
-       <a rel="2" href="#">2</a>
-       <a rel="3" href="#">3</a>
-       <a rel="4" href="#">4</a>
+       <a class="btn" rel="1" href="#">1</a>
+       <a class="btn" rel="2" href="#">2</a>
+       <a class="btn" rel="3" href="#">3</a>
+       <a class="btn" rel="4" href="#">4</a>
       </div>
     </main>
 
