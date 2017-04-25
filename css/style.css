@@ -93,9 +93,10 @@ body {
 }
 
 body {
-
   background-size: 1122px auto;
+  background: #333333;
 }
+
 
 .clearfix::after {
   content: "";
